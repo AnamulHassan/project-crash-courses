@@ -8,9 +8,9 @@ body {
   background-color: #f0f8fd;
 }
 .custom-hover {
-  filter: saturate(0);
-  transition: all 0.4s;
+  filter: saturate(0) !important;
+  transition: all 0.4s !important;
 }
 .custom-hover:hover {
-  filter: saturate(1);
+  filter: saturate(1) !important;
 }
