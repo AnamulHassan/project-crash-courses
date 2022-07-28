@@ -683,9 +683,9 @@
               Ready to join?
             </h2>
             <p class="fs-5 fw-semibold text-white text-center">
-              courses are tailored to address today's organizational issues and
-              opportunities so that you can make effective decisions to impact
-              change.
+              Courses are tailored to address today's organizational <br />
+              issues and opportunities so that you can make effective decisions
+              to impact change.
             </p>
             <div class="d-flex justify-content-center">
               <button
@@ -714,7 +714,12 @@
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+              <h5
+                class="modal-title text-info fs-4 fw-semibold text-uppercase"
+                id="staticBackdropLabel"
+              >
+                Create Account
+              </h5>
               <button
                 type="button"
                 class="btn-close"
@@ -722,16 +727,92 @@
                 aria-label="Close"
               ></button>
             </div>
-            <div class="modal-body">...</div>
+            <div class="modal-body">
+              <!-- NAME INPUT -->
+              <div class="row g-3">
+                <div class="col">
+                  <label
+                    for="first-name"
+                    class="form-label fs-6 fw-semibold text-info"
+                    >First Name</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control border-info"
+                    aria-label="First name"
+                    id="first-name"
+                  />
+                </div>
+                <div class="col">
+                  <label
+                    for="last-name"
+                    class="form-label fs-6 fw-semibold text-info"
+                    >Last Name</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control border-info"
+                    aria-label="Last name"
+                    id="last-name"
+                  />
+                </div>
+              </div>
+              <!-- USER INPUT -->
+              <div class="col">
+                <label
+                  for="inputEmail"
+                  class="form-label fs-6 fw-semibold text-info"
+                  >Email</label
+                >
+                <input
+                  type="email"
+                  class="form-control border-info"
+                  id="inputEmail"
+                />
+              </div>
+              <div class="col mb-4">
+                <label
+                  for="inputPassword"
+                  class="form-label fs-6 fw-semibold text-info"
+                  >Password</label
+                >
+                <input
+                  type="password"
+                  class="form-control border-info"
+                  id="inputPassword"
+                />
+              </div>
+              <!-- USER INPUT -->
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="gridCheck"
+                />
+                <label
+                  class="form-check-label fs-6 fw-semibold text-secondary"
+                  for="gridCheck"
+                >
+                  I agree to all the <span class="text-info">Term</span>,
+                  <span class="text-info">Privacy Policy</span> and
+                  <span class="text-info">Fees</span>
+                </label>
+              </div>
+            </div>
             <div class="modal-footer">
               <button
                 type="button"
-                class="btn btn-secondary"
+                class="btn btn-danger text-white fs-5 fw-semibold"
                 data-bs-dismiss="modal"
               >
                 Close
               </button>
-              <button type="button" class="btn btn-primary">Understood</button>
+              <button
+                type="button"
+                class="btn btn-info text-white fs-5 fw-semibold"
+              >
+                Submit
+              </button>
             </div>
           </div>
         </div>
