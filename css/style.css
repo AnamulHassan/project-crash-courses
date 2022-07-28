@@ -9,6 +9,8 @@ body {
 }
 .custom-hover {
   filter: saturate(0) !important;
+  -webkit-filter: saturate(0) !important;
+  -moz-filter: saturate(0) !important;
   transition: all 0.4s !important;
 }
 .custom-hover:hover {
