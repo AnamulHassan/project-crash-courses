@@ -7,6 +7,7 @@ body {
 .bg-info-light {
   background-color: #f0f8fd;
 }
+/* ------------CUSTOM UTILITIES------------ */
 .custom-hover {
   filter: saturate(0) !important;
   -webkit-filter: saturate(0) !important;
