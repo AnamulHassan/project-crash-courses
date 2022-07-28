@@ -9,4 +9,8 @@ body {
 }
 .custom-hover {
   filter: saturate(0);
+  transition: all 0.4s;
+}
+.custom-hover:hover {
+  filter: saturate(1);
 }
