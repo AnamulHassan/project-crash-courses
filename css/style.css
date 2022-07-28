@@ -7,3 +7,6 @@ body {
 .bg-info-light {
   background-color: #f0f8fd;
 }
+.custom-hover {
+  filter: saturate(0);
+}
